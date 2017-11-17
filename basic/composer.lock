@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "067372fd715310fcb0febb65f2d89f04",
+    "content-hash": "185461f7866b326427cdb4d94d69548b",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -213,6 +213,42 @@
                 "html"
             ],
             "time": "2017-06-03T02:28:16+00:00"
+        },
+        {
+            "name": "jiguang/jsms",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jpush/jsms-api-php-client.git",
+                "reference": "227f9bc011067b665729f0cef0d175a3da10b47e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jpush/jsms-api-php-client/zipball/227f9bc011067b665729f0cef0d175a3da10b47e",
+                "reference": "227f9bc011067b665729f0cef0d175a3da10b47e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JiGuang\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JPush",
+                    "email": "support@jpush.cn"
+                }
+            ],
+            "time": "2017-09-19T07:04:00+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
