@@ -122,6 +122,16 @@ out
 Userprofile
 
 
+###任务中红点提示是否有完成没有领取的任务
+/achievement/task/notice
+in
+
+out
+array
+"bounty": true,
+"achievement": false,
+"cycle": true
+
 
 
 
